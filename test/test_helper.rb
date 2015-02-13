@@ -7,6 +7,7 @@ require 'capybara/rails'
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
+  include Capybara::DSL
 
   def is_logged_in?
   		!session[:user_id].nil?

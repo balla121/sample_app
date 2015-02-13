@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.8'
 gem 'bcrypt', '~> 3.1.10'
 gem 'faker', '~> 1.4.3'
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.0.4'
+gem 'fog', '~> 1.27.0'
 gem 'will_paginate', '~> 3.0.7'
 gem 'bootstrap-will_paginate', '~> 0.0.10'
 gem 'sass-rails', '~> 4.0.3'
@@ -24,15 +27,16 @@ group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
   gem 'spring',      '1.1.3'
+  gem 'capybara', '~> 2.4.4'
+  gem 'cucumber', '~> 1.3.18'
+  gem 'rspec-rails', '~> 3.2.0'
 end
 
 group :test do
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
-  gem 'capybara', '~> 2.4.4'
-  gem 'cucumber', '~> 1.3.18'
-  
+  gem 'cucumber-rails', '~> 1.4.2', :require => false
 end
 
 
