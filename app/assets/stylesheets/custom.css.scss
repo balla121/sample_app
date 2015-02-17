@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
 /* universal */
 
@@ -298,4 +299,22 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+/* icons */
+
+.fa.fa-users {
+  opacity: 0.5;
+}
+
+.fa.fa-users:hover {
+  opacity: 1; 
+}
+
+.fa.fa-home {
+  opacity: 0.5;
+}
+
+.fa.fa-home:hover {
+  opacity: 1; 
 }

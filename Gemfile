@@ -12,6 +12,8 @@ gem 'bootstrap-will_paginate', '~> 0.0.10'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
+gem 'le', '~> 2.6.2'
+gem 'font-awesome-rails', '~> 4.3.0.0'
 
 gem 'jquery-rails'
 gem 'turbolinks'
