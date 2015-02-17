@@ -4,9 +4,9 @@ if Rails.env.production?
 
 		#configuration for amazon s3
 		:provider => 'AWS',
-		:aws_access_key_id => ENV['S3_Access_KEY'],
-		:aws_secret_access_key => EnV['S3_SECRET_KEY']
+		:aws_access_key_id => ENV['AKIAJWKDZWZYIDKD5LYQ'],
+		:aws_secret_access_key => ENV['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']
 		}
-		config.fog_directory = ENV['S3_BUCKET']
+		config.fog_directory = ENV['weijiesampleapp']
 	end
 end
