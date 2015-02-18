@@ -16,15 +16,14 @@ class UsersController < ApplicationController
   end
   def create
     @user = User.new(user_params)
-    @user.save
-    #if @user.save
+    if @user.save
       @user.activated = true
-      #@user.send_activation_email
-      #flash[:info] = "Please check your email to activate your account."
+      @user.send_activation_email
+      flash[:info] = "Please check your email to activate your account."
       redirect_to root_url
-    #else
+    else
       render 'new'
-    #end
+    end
   end
 
   def edit
