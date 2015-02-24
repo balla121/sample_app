@@ -23,7 +23,7 @@ User.create!(name:  "Weijie Gao",
              activated_at: Time.zone.now)
 
 User.create!(name:  "Debbie",
-             email: "debbie@debbie.com",
+             email: "debbie@gmail.com",
              password:              "password",
              password_confirmation: "password",
              admin:true,
@@ -31,7 +31,7 @@ User.create!(name:  "Debbie",
              activated_at: Time.zone.now)
 
 User.create!(name:  "Gary",
-             email: "gary@gary.com",
+             email: "gary@gmail.com",
              password:              "password",
              password_confirmation: "password",
              admin:true,
@@ -39,7 +39,7 @@ User.create!(name:  "Gary",
              activated_at: Time.zone.now)
 
 User.create!(name:  "Katie",
-             email: "katie@katie.com",
+             email: "katie@gmail.com",
              password:              "password",
              password_confirmation: "password",
              admin:true,
